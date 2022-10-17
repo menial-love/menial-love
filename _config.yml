@@ -1,11 +1,16 @@
-title:             Square Zero
-email:             sssurajsuraj@gmail.com
-description:       Silent Observations
-author:            J
+# 定义的以下变量可以使用site.变量名访问
+title:             浙工大网安院无人组
+email:             562339477@qq.com
+author:            bowenWang
 #url:               "localhost:4000"
-url:               "http://squarezero.github.io/"
+url:               "http://menial-love.github.io/"
 baseurl:
 
+members:
+  - name: 大娃
+    photo: /img/大娃.jpeg
+  - name: 二娃
+    photo: /img/二娃.jpeg
 # Social Profiles
 #twitter_username:  SBootstrap
 #github_username:   BlackrockDigital
