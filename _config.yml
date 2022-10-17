@@ -11,6 +11,16 @@ members:
     photo: /img/大娃.jpeg
   - name: 二娃
     photo: /img/二娃.jpeg
+  - name: 三娃
+    photo: /img/三娃.jpeg
+  - name: 四娃
+    photo: /img/四娃.jpeg
+  - name: 五娃
+    photo: /img/五娃.jpeg
+  - name: 六娃
+    photo: /img/六娃.jpeg
+  - name: 七娃
+    photo: /img/七娃.jpeg
 # Social Profiles
 #twitter_username:  SBootstrap
 #github_username:   BlackrockDigital
