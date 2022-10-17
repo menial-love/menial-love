@@ -57,6 +57,7 @@ blockquote {
   width: 150px;
   height: 150px;
   margin-left: 40px;
+  margin-top: 20px;
 }
 .member {
   width: 228px;
@@ -64,6 +65,22 @@ blockquote {
 .member p {
   margin: 10px 95px;
   font-weight: bold;
+}
+.btn-detail:hover {
+  text-decoration: none;
+  color:white;
+  background-color: #f30909
+}
+.btn-detail {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 3px 3px rgba(189, 45, 48, 0.5);
+  -moz-box-shadow: 3px 3px 3px rgba(189, 45, 48, 0.5);
+  box-shadow: 3px 3px 3px rgba(189, 45, 48, 0.5);
+  background: #F55B47;
+  color: #FFF;
+  padding: 5px 15px;
 }
 ::-moz-selection {
   color: $white;
