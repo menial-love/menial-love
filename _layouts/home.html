@@ -22,16 +22,17 @@ layout: default
       </div>
     </div>
   </header>
-    <div class="container">
-      <div class="row">
-        {% for member in site.members %}
-        <div class="member">
-          <img class="memberPhoto" src={{member.photo}} alt="照片找不到了"/>
-          <p>{{member.name}}</p>
-        </div>
-        {% endfor %}
+  <div class="container">
+    <h3 class="title">小组成员</h3>
+    <div class="row">
+      {% for member in site.members %}
+      <div class="member">
+        <img class="memberPhoto" src={{member.photo}} alt="照片找不到了"/>
+        <p>{{member.name}}</p>
       </div>
+      {% endfor %}
     </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-10 mx-auto">

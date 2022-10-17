@@ -49,6 +49,9 @@ blockquote {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.container h3.title {
+  text-align: center;
+}
 .member img.memberPhoto {
   padding: .25rem;
   background-color: #fff;
@@ -58,9 +61,10 @@ blockquote {
   width: 150px;
   height: 150px;
   margin-left: 40px;
+  margin-top: 20px;
 }
 .member p {
-  margin: 30px 100px;
+  margin: 10px 100px;
 }
 ::-moz-selection {
   color: $white;
