@@ -1,8 +1,4 @@
 // Global styling for this template
-body {
-  @include serif-font;
-}
-
 p {
   line-height: 1.5;
   a {
@@ -65,6 +61,7 @@ blockquote {
 }
 .member p {
   margin: 10px 100px;
+  font-weight: bold;
 }
 ::-moz-selection {
   color: $white;
