@@ -5,97 +5,101 @@
   }
 }
 .post-preview {
-  > a {
-    color: black;
-    &:focus,
-    &:hover {
-      text-decoration: none;
+  @media only screen and (max-width: 767px){
+    >.post-container{
+      display: block !important;
+      text-align: center;
+      >.post-text {
+        padding-top: 30px !important;
+      }
     }
-    @media only screen and (max-width: 767px){
-      >.post-container{
-        display: block !important;
+  }
+  > .post-container{
+    display: flex;
+    > .post-img-container{
+      > .post-img{
+        max-width: 90vw;
+        max-height: 400px;
+        width: 90vw;
+        height: 225px;
+        object-fit: cover;
+      }
+    }
+    > .post-text {
+      padding: 0 2em;
+      width: 100%;
+      > .post-text-header{
+        display: flex;
+        justify-content: center;
+        > .post-title{
+
+        }
+        > .post-meta {
+          display: none;
+          font-family: 'Consolas';
+          font-size: 14px;
+          margin: 10px 0 0;
+          color: $gray-900;
+          > a {
+            text-decoration: none;
+            color: $gray-900;
+          }
+        }
+      }
+      > .post-title {
+        font-size: 30px;
+        margin: 0;
+      }
+      > .post-subtitle {
+        color: black;
+        margin: 10px 0 10px;
+        line-height: 1.7;
+        font-size: 1.2em;
+        font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
+      }
+      > .post-link {
+        position: relative;
+        z-index: 1;
         text-align: center;
-        >.post-text {
-          padding-top: 30px !important;
+        color: #b20303;
+        border-color: #bf2c24;
+        cursor: pointer;
+        transition: all .3s;
+        margin-top: 30px;
+        &:focus, &:hover {
+          text-decoration: none;
+          background-color: #d32f2f;
+          color: white;
         }
       }
     }
+  }
+
+  @media only screen and (min-width: 768px) {
     > .post-container{
-      display: flex;
       > .post-img-container{
         > .post-img{
-          max-width: 90vw;
+          max-width: 400px;
           max-height: 400px;
-          width: 90vw;
+          width: 400px;
           height: 225px;
           object-fit: cover;
         }
       }
-      > .post-text{
-        padding: 0 2em;
-        width: 100%;
-        > .post-text-header{
-          display: flex;
-          justify-content: center;
-          > .post-title{
-
+      >.post-text{
+        >.post-text-header{
+          justify-content: space-between;
+          > .post-title {
+            font-size: 25px;
+            border: 2px solid white;
+            padding: 10px 20px;
+            margin-right: 50px;
           }
-          > .post-meta {
-            display: none;
-            font-family: 'Consolas';
-            font-size: 14px;
-            margin: 10px 0 0;
-            color: $gray-900;
-            > a {
-              text-decoration: none;
-              color: $gray-900;
-            }
+          > .post-meta{
+            display: inline;
           }
-        }
-        > .post-title {
-          font-size: 30px;
-          margin: 0;
-        }
-        > .post-subtitle {
-          color: black;
-          margin: 10px 0 10px;
-          line-height: 1.7;
-          font-size: 1em;
         }
       }
-    }
-
-  }
-
-  @media only screen and (min-width: 768px) {
-    > a {
-      > .post-container{
-        > .post-img-container{
-          > .post-img{
-            max-width: 400px;
-            max-height: 400px;
-            width: 400px;
-            height: 225px;
-            object-fit: cover;
-          }
-        }
-        >.post-text{
-          >.post-text-header{
-            justify-content: space-between;
-            > .post-title {
-              font-size: 25px;
-              border: 2px solid white;
-              padding: 10px 20px;
-              margin-right: 50px;
-            }
-            > .post-meta{
-              display: inline;
-            }
-          }
-        }
-
-      }
-
     }
   }
 }
