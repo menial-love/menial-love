@@ -1,4 +1,5 @@
 let svg = document.getElementsByClassName('iconfont')[0];
+console.log(svg);
 svg.addEventListener("mouseover", function (event) {
     console.log("mouseover");
     svg.style.color = '#4775f1';
