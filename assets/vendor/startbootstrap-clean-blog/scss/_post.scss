@@ -51,10 +51,10 @@
         margin: 0;
       }
       > .post-subtitle {
-        color: black;
+        color: #7b7b7b;
         margin: 10px 0 10px;
         line-height: 1.7;
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
       }
       > .post-link {
@@ -64,8 +64,17 @@
         color: #b20303;
         border-color: #bf2c24;
         cursor: pointer;
-        transition: all .3s;
-        margin-top: 30px;
+        transition: all .5s;
+        top: 30px;
+        font: 16px/36px "Microsoft YaHei", 微软雅黑, sans-serif;
+        display: inline-block;
+        width: 102px;
+        height: 38px;
+        margin-right: 15px;
+        vertical-align: middle;
+        border-width: 1.5px;
+        border-style: solid;
+        border-radius: 5px;
         &:focus, &:hover {
           text-decoration: none;
           background-color: #d32f2f;

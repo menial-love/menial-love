@@ -6,7 +6,6 @@ cover: https://cdna.artstation.com/p/assets/images/images/004/560/916/large/domi
 tags:
 - Discourse
 - NonFiction
-subtitle: What is this?
 ---
 
 # Looks like I'm doing this.
