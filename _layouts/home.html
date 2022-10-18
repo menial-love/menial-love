@@ -45,7 +45,6 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
-        <!-- {% for post in site.posts limit : 10 %} -->
         {% for post in site.posts limit : 10 %}
           <article class="post-preview">
 <!--            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">-->
@@ -83,7 +82,6 @@ layout: default
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
-      {% endfor %}
       </div>
     </div>
   </div>
