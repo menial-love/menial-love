@@ -22,6 +22,7 @@ members:
 
 # Build settings
 markdown:          kramdown
+paginator:         paginate
 paginate:          3
 paginate_path:     "/posts/page:num/"
 plugins:
