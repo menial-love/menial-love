@@ -40,6 +40,12 @@ blockquote {
   color: #dde0e2;
   fill: currentColor;
   margin-top: 20px;
+  cursor: pointer;
+}
+.iconfont:hover {
+  background-color: #405bf5;
+  font-weight: bold;
+  color: white;
 }
 .caption {
   font-size: 14px;
