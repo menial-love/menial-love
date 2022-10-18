@@ -41,10 +41,7 @@ blockquote {
   fill: currentColor;
   margin-top: 20px;
   cursor: pointer;
-}
-.iconfont:hover {
-  font-weight: bold;
-  color: #3939f5;
+  transition: all, .5s;
 }
 .caption {
   font-size: 14px;
