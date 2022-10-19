@@ -22,7 +22,7 @@ members:
 
 # Build settings
 markdown:          kramdown
-paginate:          3
+paginate:          1
 
 plugins:
   - jekyll-feed

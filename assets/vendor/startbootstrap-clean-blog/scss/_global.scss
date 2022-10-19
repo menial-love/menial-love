@@ -1,7 +1,7 @@
 // Global styling for this template
 p {
   line-height: 1.5;
-  a, a:active, a:hover, a:link{
+  a {
     text-decoration: none;
   }
 }
@@ -76,12 +76,13 @@ blockquote {
 }
 .pageBar {
   text-align: center;
-  line-height: 33px;
+  line-height: 28px;
 }
-.pageBar a.act, .pageBar a:hover {
+.pageBar a.act, .pageBar a:hover, .pageBar a:link, .pageBar a:active {
   background: #d32f2f;
   color: #fff;
   border: 1px solid #d32f2f;
+  text-decoration: none;
 }
 .pageBar a {
   border: 1px solid #ccc;
@@ -93,6 +94,7 @@ blockquote {
   font-size: 18px;
   color: #999;
   vertical-align: middle;
+  text-decoration: none;
 }
 ::-moz-selection {
   color: $white;
