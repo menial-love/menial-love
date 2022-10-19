@@ -3,11 +3,6 @@
   position: absolute;
   background-color: black;
   @include sans-serif-font;
-  .navbar-collapse {
-    background: #464545;
-    transition: transform .5s;
-    z-index: 998;
-  }
   .navbar-brand {
     font-weight: 800;
     color: $gray-800;
