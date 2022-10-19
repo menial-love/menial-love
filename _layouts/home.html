@@ -28,10 +28,22 @@ layout: default
   <div class="container">
     <h3 class="title">小组成员</h3>
     <div class="row">
+      {% for doctor in site.doctors %}
+      <div class="member">
+        <img class="memberPhoto" src={{doctor.photo}} alt="照片找不到了"/>
+        <div style="text-align: center">
+          <p>{{doctor.name}}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
       {% for member in site.members %}
       <div class="member">
         <img class="memberPhoto" src={{member.photo}} alt="照片找不到了"/>
-        <p>{{member.name}}</p>
+        <div style="text-align: center">
+          <p>{{member.name}}</p>
+        </div>
       </div>
       {% endfor %}
     </div>

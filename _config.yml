@@ -4,6 +4,12 @@ email:             562339477@qq.com
 author:            bowenWang
 url:               "http://menial-love.github.io/"
 
+doctors:
+  - name: 教授1
+    photo: /img/大娃.jpg
+  - name: 教授2
+    photo: /img/二娃.jpg
+
 members:
   - name: 大娃
     photo: /img/大娃.jpeg
@@ -22,7 +28,7 @@ members:
 
 # Build settings
 markdown:          kramdown
-paginate:          1
+paginate:          3
 
 plugins:
   - jekyll-feed
