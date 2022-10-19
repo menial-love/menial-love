@@ -6,9 +6,9 @@ url:               "http://menial-love.github.io/"
 
 doctors:
   - name: 教授1
-    photo: /img/大娃.jpg
+    photo: /img/大娃.jpeg
   - name: 教授2
-    photo: /img/二娃.jpg
+    photo: /img/二娃.jpeg
 
 members:
   - name: 大娃

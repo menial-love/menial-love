@@ -27,11 +27,12 @@ layout: default
   </header>
   <div class="container">
     <h3 class="title">小组成员</h3>
-    <div class="row">
+    <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap
+        ;margin-left: -15px;margin-right: -15px">
       {% for doctor in site.doctors %}
       <div class="member">
         <img class="memberPhoto" src={{doctor.photo}} alt="照片找不到了"/>
-        <div style="text-align: center">
+        <div style="text-align: center; margin-top: 10px;">
           <p>{{doctor.name}}</p>
         </div>
       </div>
@@ -41,7 +42,7 @@ layout: default
       {% for member in site.members %}
       <div class="member">
         <img class="memberPhoto" src={{member.photo}} alt="照片找不到了"/>
-        <div style="text-align: center">
+        <div style="text-align: center; margin-top: 10px;">
           <p>{{member.name}}</p>
         </div>
       </div>
